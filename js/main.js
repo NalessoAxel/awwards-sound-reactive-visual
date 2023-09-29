@@ -41,7 +41,7 @@ function draw() {
 	const mapCentroid = map(freq, 0, 5, -1, 1);
 	const mapFreq = map(fft.getEnergy('highMid'), 0, 100, 0, 0.1);
 
-	const rotation = map(audio.currentTime(), 0, audio.duration(), 0, 0.001);
+	const rotation = map(audio.currentTime(), 0, audio.duration(), 0, 0.002);
 
 	myShaders.setUniform('uAmplitude', mapCentroid);
 	myShaders.setUniform('uFrequency', mapFreq);
