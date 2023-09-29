@@ -1,17 +1,17 @@
 {
-  "name": "sound-reactive-visual",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^4.4.5"
-  },
-  "dependencies": {
-    "p5js-wrapper": "^1.2.3"
-  }
+	"name": "sound-reactive-visual",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "pnpm build && vite preview"
+	},
+	"devDependencies": {
+		"vite": "^4.4.5"
+	},
+	"dependencies": {
+		"p5js-wrapper": "^1.2.3"
+	}
 }
